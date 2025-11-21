@@ -9,20 +9,23 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+// #include <birchutils.h>
 
 // #include <YOURCUSTOMLIBS.h>
-
 
 typedef unsigned char int8;
 typedef unsigned short int int16;
 typedef unsigned int int32;
 typedef unsigned long long int int64;
+typedef unsigned _BigInt(128) int128;
 
-#define $8 (int8 *);
-#define $6 (int16);
-#define $2 (int32);
-#define $4 (int64);
+#define $1 (int8 *);
+#define $2 (int16);
+#define $4 (int32);
+#define $8 (int64);
+#define $16 (int128);
 #define $c (char *);
 #define $i (int);
 
 int main(int, char **);
+void usage(int8 *);
