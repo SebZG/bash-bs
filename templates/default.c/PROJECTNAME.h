@@ -1,5 +1,7 @@
 /* PROJECTNAME.h */
 
+#pragma once
+
 #define _GNU_SOURCE
 
 #include <stdio.h>

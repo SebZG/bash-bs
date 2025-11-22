@@ -1,4 +1,4 @@
-flags= -O2 -Wall -std=c1x
+flags= -O2 -Wall -std=c2x
 # ldflags= -lbu
 
 .PHONY: all clean
